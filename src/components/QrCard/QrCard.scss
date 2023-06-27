@@ -1,0 +1,41 @@
+@import '../../global';
+
+.qr-card__container {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  background-color: $White;
+
+  padding: 20px;
+  border-radius: $border-radius-default;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.qr-card__image {
+  width: 100%;
+  max-width: 300px;
+
+  border-radius: $border-radius-default;
+}
+
+.qr-card__body {
+  text-align: center;
+
+  h3 {
+    font-weight: 700;
+    color: $Dark-blue;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    color: $Grayish-blue;
+
+    margin-bottom: 15px;
+  }
+}
